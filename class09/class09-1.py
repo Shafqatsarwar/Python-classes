@@ -1,3 +1,6 @@
-name : str = input("what is your Name? :\t")
-print (type(name))
-print (f"Well come dear user {name}!")
+import sys
+
+print ("line1")
+print ("line2")
+
+print (sys.argv)
