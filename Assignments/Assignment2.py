@@ -1,3 +1,4 @@
+# 1 Add two numbers
 def add_two_numbers(num1, num2):
     return num1 + num2
 def main():
@@ -8,26 +9,26 @@ def main():
 if __name__ == "__main__":
     main()
 
-
+# 2 Agreement Boot
 def main1():
     favorite_animal = input("What is your favorite animal? ")
     print(f"My favorite animal is also {favorite_animal}!")
 if __name__ == "__main__":
     main()
+
+# 3 Fahrenheit to Celsius
 def fahrenheit_to_celsius(fahrenheit):
     return (fahrenheit - 32) * 5 / 9
-
-
 def main2():
     fahrenheit = float(input("Enter the temperature in Fahrenheit: "))
     celsius = fahrenheit_to_celsius(fahrenheit)
     print(f"The temperature in Celsius is {celsius:.2f}")
 if __name__ == "__main__":
     main()
+
+# 4 Triangle Perimeters
 def calculate_perimeter(side1, side2, side3):
     return side1 + side2 + side3
-
-
 def main3():
     side1 = float(input("Enter the length of the first side: "))
     side2 = float(input("Enter the length of the second side: "))
@@ -37,7 +38,7 @@ def main3():
 if __name__ == "__main__":
     main()
 
-
+# 5 Square Number
 def calculate_square(number):
     return number * number
 def main4():
@@ -47,29 +48,35 @@ def main4():
 if __name__ == "__main__":
     main()
 
-
+# 6 Delete a number
 numbers = [1, 2, 3, 4, 5]
 numbers.remove(3)
 print(numbers)
 
+# 7 Creating a list
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+list1.extend(list2)
+print(list1)
 
+# 8 Pop method
 items = [10, 20, 30, 40]
 removed_item = items.pop()
 print(f"Updated list: {items}")
 print(f"Removed item: {removed_item}")
 
-
+# 9 Index method
 colors = ['red', 'blue', 'green', 'yellow']
 index_of_green = colors.index('green')
 print(f"The index of 'green' is {index_of_green}")
 
-
+# 10 Get last element
 def get_last_element(lst):
     print(lst[-1])
 example_list = [1, 2, 3, 4, 5]
 get_last_element(example_list)  # This will print: 5
 
-
+# 11 Get a List
 def main5():
     values = []
     while True:
