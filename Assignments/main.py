@@ -6,6 +6,6 @@ def className():
         age = input("Enter your age!")
         print("Hello", my_name)
         return my_name
-    new_user_name: str = get_user_name()
+    new_user_name: str = get_user_name(21)
     print(f"Hello, {new_user_name}")
 className()
